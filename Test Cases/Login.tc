@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>登录</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68b20120-e981-4a85-9369-2db0d4e48a79</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description>用户名</description>
+      <id>9dbdeed1-fafa-4b66-be5f-6a36ef6c586d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin@12345'</defaultValue>
+      <description>密码</description>
+      <id>82dace71-43dc-4201-aaa1-8a9cb11d4fb2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description>菜单层级Xpath路径</description>
+      <id>28e5a46e-ca05-446d-9436-06da7968879c</id>
+      <masked>false</masked>
+      <name>menuNameXPaths</name>
+   </variable>
+</TestCaseEntity>

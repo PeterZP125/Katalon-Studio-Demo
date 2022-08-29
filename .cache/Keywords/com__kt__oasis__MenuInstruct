@@ -1,0 +1,39 @@
+{
+  "keywordFileContentHash": "E1A173F02FAE014B4F9A2DF642778189",
+  "keywordClasses": [
+    {
+      "name": "com.kt.oasis.MenuInstruct",
+      "keywordMethods": [
+        {
+          "name": "enterModule",
+          "parameters": [
+            {
+              "name": "menuNameXPaths",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [
+                  {
+                    "fullClassName": "java.lang.String",
+                    "unresolvedClassName": "String",
+                    "isArray": false,
+                    "isGnericsPlaceHolder": false,
+                    "hasImmutableClassName": false,
+                    "genericsTypes": [],
+                    "errorOnParsing": false
+                  }
+                ],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
