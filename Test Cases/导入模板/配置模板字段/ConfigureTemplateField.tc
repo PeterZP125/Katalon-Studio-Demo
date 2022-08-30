@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>配置模板字段</description>
+   <name>ConfigureTemplateField</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d7f90618-8acb-4075-be53-05e1e25b3b2e</testCaseGuid>
+</TestCaseEntity>

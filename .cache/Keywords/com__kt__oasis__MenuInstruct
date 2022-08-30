@@ -30,10 +30,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * 进入指定菜单\r\n\t * @param menuPath:菜单名称[主菜单, 子菜单1, 子菜单2, ...]\r\n\t * */"
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

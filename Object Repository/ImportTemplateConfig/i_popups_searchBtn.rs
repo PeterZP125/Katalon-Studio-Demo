@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_popups_searchBtn</name>
+   <tag></tag>
+   <elementGuidId>09d5e8b3-d20b-473f-901c-dc8d6bcff0c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div/button/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;&quot;]/body[@class=&quot;el-popup-parent--hidden&quot;]/div[@class=&quot;el-dialog__wrapper&quot;]/div[@class=&quot;el-dialog&quot;]/div[@class=&quot;el-dialog__body&quot;]/form[@class=&quot;el-form prompt-form el-form--label-left&quot;]/div[@class=&quot;el-row&quot;]/div[@class=&quot;el-col el-col-8 el-col-xs-24&quot;]/div[1]/button[@class=&quot;el-button el-button--success el-button--mini&quot;]/i[@class=&quot;el-icon-search&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.el-col.el-col-8.el-col-xs-24 > div > button.el-button.el-button--success.el-button--mini > i.el-icon-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>el-icon-search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[@class=&quot;el-popup-parent--hidden&quot;]/div[@class=&quot;el-dialog__wrapper&quot;]/div[@class=&quot;el-dialog&quot;]/div[@class=&quot;el-dialog__body&quot;]/form[@class=&quot;el-form prompt-form el-form--label-left&quot;]/div[@class=&quot;el-row&quot;]/div[@class=&quot;el-col el-col-8 el-col-xs-24&quot;]/div[1]/button[@class=&quot;el-button el-button--success el-button--mini&quot;]/i[@class=&quot;el-icon-search&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>新建导入模板
+1)setp6 如何精准定位搜索结果</description>
+   <name>ImportTemplateConfig</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afc47269-653b-4729-ab5b-c0142934a03e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>703454e8-6e5b-4394-a478-cafd5f7b8e25</id>
+      <masked>false</masked>
+      <name>importTempNum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>81b03259-1985-4168-b731-d9393f8d4473</id>
+      <masked>false</masked>
+      <name>importTempName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1ea5bd3-3fd9-4b05-806b-8c8bac9d3581</id>
+      <masked>false</masked>
+      <name>uploadBtnRepository</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>623352d2-cdf6-4c92-92a5-5e5dc67ff276</id>
+      <masked>false</masked>
+      <name>uploadFilePathList</name>
+   </variable>
+</TestCaseEntity>

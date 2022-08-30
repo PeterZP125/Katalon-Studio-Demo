@@ -17,13 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('登录/Login'), [('username') : 'admin', ('password') : 'Admin@12345', ('menuNameXPaths') : [
-            '//li[@class=\'el-submenu\']/descendant::span[text()=\'系统配置\']', '//li[@class=\'el-menu-item el-tooltip item\']/descendant::span[text()=\'导入模板配置\']']], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('导入模板/ImportTemplateConfig'), [('importTempNum') : 'num02', ('importTempName') : 'name02'
-        , ('uploadBtnRepository') : 'Object Repository/ImportTemplateConfig/button_upload', ('uploadFilePathList') : ['C:\\Users\\AdminZP\\Desktop\\日志.xlsx']], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('导入模板/配置模板字段/ConfigureTemplateField'), [:], FailureHandling.STOP_ON_FAILURE)
+'进入模块'
+CustomKeywords.'com.kt.oasis.MenuInstruct.enterModule'(menuNameXPaths)
 

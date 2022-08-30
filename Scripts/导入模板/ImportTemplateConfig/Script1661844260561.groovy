@@ -17,24 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'打开浏览器'
-WebUI.openBrowser('')
+CustomKeywords.'com.kt.oasis.MenuInstruct.enterModule'(['//div[@class=\'el-submenu__title\']/descendant::span[text()=\'系统配置\']'
+        , '//li[@class=\'el-menu-item el-tooltip item\']/descendant::span[text()=\'导入模板配置\']'])
 
-'最大化浏览器窗口'
-WebUI.maximizeWindow()
+'点击新建按钮'
+WebUI.click(findTestObject('CommonElement/btn_add'))
 
-'输入网址'
-WebUI.navigateToUrl('http://192.168.1.235/#/login?redirect=%2Fdashboard')
+'设置导入模板编号'
+WebUI.setText(findTestObject('ImportTemplateConfig/input_importTempNum'), importTempNum)
 
-'输入用户名'
-WebUI.setText(findTestObject('Object Repository/Login/input_Tranzvision Oasis_username'), username)
+'设置导入模板名称'
+WebUI.setText(findTestObject('ImportTemplateConfig/input_imortTempName'), importTempName)
 
-'输入密码'
-WebUI.setText(findTestObject('Object Repository/Login/input_Tranzvision Oasis_password'), password)
+'点击业务实体放大镜'
+WebUI.click(findTestObject('ImportTemplateConfig/i_search_icon'))
 
-'点击登录'
-WebUI.click(findTestObject('Login/button_login'))
+'输入主表名'
+WebUI.setText(findTestObject('ImportTemplateConfig/input_popups_searchField'), 'TZ_POSITION')
 
-'进入模块'
-CustomKeywords.'com.kt.oasis.MenuInstruct.enterModule'(menuNameXPaths)
+'点击搜索按钮'
+WebUI.click(findTestObject('ImportTemplateConfig/i_popups_searchBtn'))
+
+'点击搜索记录添加'
+WebUI.click(findTestObject('ImportTemplateConfig/span_selectRecord'))
+
+//'点击上传按钮'
+//WebUI.click(findTestObject('ImportTemplateConfig/button_upload'))
+'上传文件'
+CustomKeywords.'com.kt.oasis.UploadInstruct.upload'(uploadBtnRepository, uploadFilePathList)
+
+'点击保存按钮'
+WebUI.click(findTestObject('ImportTemplateConfig/button_save'))
 
