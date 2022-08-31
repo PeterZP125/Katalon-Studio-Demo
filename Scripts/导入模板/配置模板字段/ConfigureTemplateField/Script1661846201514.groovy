@@ -17,7 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'点击‘加载本BE字段’'
 WebUI.click(findTestObject('ConfigureTemplateField/btn_loadCurrBEField'))
 
-CustomKeywords.'com.kt.oasis.CommonInstruct.searchByPopupsWithFields'('//button[@sid=\'ldFilter_showAdvanced\']', null)
+'点击‘加载外键字段’'
+WebUI.click(findTestObject('ConfigureTemplateField/btn_loadForeignKeyField'))
+
+'点击全选\r\n'
+WebUI.click(findTestObject('ConfigureTemplateField/btn_loadForeignKeyField_selectAll'))
+
+'点击确定'
+WebUI.click(findTestObject('ConfigureTemplateField/btn_loadForeignKeyField_confirm'))
+
+'点击关闭按钮'
+WebUI.click(findTestObject('ConfigureTemplateField/btn_loadForeignKeyField_close'))
+
+'查询目标字段'
+CustomKeywords.'com.kt.oasis.CommonInstruct.searchByPopupsWithFields'(searchBtnRepositoryId, searchInputRepositoryIdList, 
+    searchConfirmBtnRepositoryId, searchTextList)
+
+'点击目标字段的修改按钮\r\n'
+WebUI.click(findTestObject('ConfigureTemplateField/btn_record_edit'))
 

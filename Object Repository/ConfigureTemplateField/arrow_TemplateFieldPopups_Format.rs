@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arrow_TemplateFieldPopups_Format</name>
+   <tag></tag>
+   <elementGuidId>ab93ad70-d938-4b1d-b19a-92bf1a1a3cfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@aria-label='编辑TemplateField']//form//label[@for='Format']/following-sibling::div//i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@aria-label='编辑TemplateField']//form//label[@for='Format']/following-sibling::div//i</value>
+   </webElementProperties>
+</WebElementEntity>

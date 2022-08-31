@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_record_edit</name>
+   <tag></tag>
+   <elementGuidId>88680135-db64-4bc0-b5ab-fe8bc5250137</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='el-table__fixed-body-wrapper']/table[@class='el-table__body']/descendant::button[@sid='button_edit_0']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@aria-labelledby='tab-0']/descendant::div[@class='el-table__body-wrapper is-scrolling-none']/descendant::table[@class='el-table__body']//button[@sid='button_edit_0']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath1</name>
+      <type>Main</type>
+      <value>//div[@aria-labelledby='tab-0']/descendant::div[@class='el-table__body-wrapper is-scrolling-none']/descendant::table[@class='el-table__body']//button[@sid='button_edit_0']</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='el-table__fixed-body-wrapper']/table[@class='el-table__body']/descendant::button[@sid='button_edit_0']</value>
+   </webElementProperties>
+</WebElementEntity>

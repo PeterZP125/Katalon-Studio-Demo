@@ -32,10 +32,23 @@ public class CommonInstruct {
 
 	WebDriver driver = DriverFactory.getWebDriver()
 
-	
+	/**
+	 * 在搜索弹框中输入指定搜索字段查找数据
+	 * @param	searchBtnRepositoryId:搜索按钮id
+	 * 			searchInputRepositoryId:查找input框id
+	 * 			searchConfirmBtnRepositoryId:搜索按钮id
+	 * 			searchText:搜索文本
+	 * */
 	@Keyword(keywordObject="searchByPopupsWithFields")
-	void searchByPopupsWithFields(TestObject textObjectId, Map<String, String> searchFieldMap) {
-		driver.findElement(By.xpath(searchBtnXpath)).click()
-		findTestCase(testCaseRelativeId)
+	void searchByPopupsWithFields(String searchBtnRepositoryId, List<TestObject> searchInputRepositoryIdList,
+			String searchConfirmBtnRepositoryId, List<String> searchTextList) {
+		//todo:校验searchInputRepositoryId数量=searchText数量
+		WebUI.click(findTestObject(searchBtnRepositoryId))
+		println 'aaaaaaaaaaaaaaa'
+		for(int i = 0; i < searchInputRepositoryIdList.size(); i++) {
+			println 'nbbbbbbbbbbbbbbb'
+			WebUI.setText(findTestObject(searchInputRepositoryIdList.get(i)), searchTextList.get(i))
+		}
+		WebUI.click(findTestObject(searchConfirmBtnRepositoryId))
 	}
 }

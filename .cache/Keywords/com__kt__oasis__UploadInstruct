@@ -56,7 +56,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t *  上传文件\r\n\t * @param\tbtnXpath: 按钮XPath定位\r\n\t * \t\t\tfilePathList:文件路径列表\r\n\t * \t\t\tsingle:默认传输多个文件\r\n\t * */"
         },
         {
           "name": "upload",
@@ -97,10 +98,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

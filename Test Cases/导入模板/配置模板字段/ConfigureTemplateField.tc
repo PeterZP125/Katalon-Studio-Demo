@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d7f90618-8acb-4075-be53-05e1e25b3b2e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>271ef1ce-4dea-4fc8-8dff-9748d92bbf86</id>
+      <masked>false</masked>
+      <name>searchBtnRepositoryId</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>c8ff29d5-1c84-4d36-a10d-0831f2458494</id>
+      <masked>false</masked>
+      <name>searchInputRepositoryIdList</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73a2d3bb-fa3d-49cd-94bf-92c57c62fd97</id>
+      <masked>false</masked>
+      <name>searchConfirmBtnRepositoryId</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>105e388d-75a4-4ec0-a97f-85c17b45f208</id>
+      <masked>false</masked>
+      <name>searchTextList</name>
+   </variable>
 </TestCaseEntity>

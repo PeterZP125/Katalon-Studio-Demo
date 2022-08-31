@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "DE92C18C7007312DA82C10BB9EF2F90E",
+  "keywordFileContentHash": "269B9ABDB4ABFF6C396CA1780A137520",
   "keywordClasses": [
     {
       "name": "com.kt.oasis.CommonInstruct",
@@ -8,11 +8,11 @@
           "name": "searchByPopupsWithFields",
           "parameters": [
             {
-              "name": "textObjectId",
+              "name": "searchBtnRepositoryId",
               "initialExpression": "",
               "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
@@ -21,24 +21,51 @@
               }
             },
             {
-              "name": "searchFieldMap",
+              "name": "searchInputRepositoryIdList",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.util.Map",
-                "unresolvedClassName": "Map",
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
                 "genericsTypes": [
                   {
-                    "fullClassName": "java.lang.String",
-                    "unresolvedClassName": "String",
+                    "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                    "unresolvedClassName": "TestObject",
                     "isArray": false,
                     "isGnericsPlaceHolder": false,
                     "hasImmutableClassName": false,
                     "genericsTypes": [],
                     "errorOnParsing": false
-                  },
+                  }
+                ],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "searchConfirmBtnRepositoryId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "searchTextList",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [
                   {
                     "fullClassName": "java.lang.String",
                     "unresolvedClassName": "String",
@@ -53,7 +80,7 @@
               }
             }
           ],
-          "javadoc": ""
+          "javadoc": "/**\r\n\t * 在搜索弹框中输入指定搜索字段查找数据\r\n\t * @param\tsearchBtnRepositoryId:搜索按钮id\r\n\t * \t\t\tsearchInputRepositoryId:查找input框id\r\n\t * \t\t\tsearchConfirmBtnRepositoryId:搜索按钮id\r\n\t * \t\t\tsearchText:搜索文本\r\n\t * */"
         }
       ]
     }

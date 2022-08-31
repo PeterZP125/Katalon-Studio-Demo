@@ -25,5 +25,8 @@ WebUI.callTestCase(findTestCase('导入模板/ImportTemplateConfig'), [('importT
         , ('uploadBtnRepository') : 'Object Repository/ImportTemplateConfig/button_upload', ('uploadFilePathList') : ['C:\\Users\\AdminZP\\Desktop\\日志.xlsx']], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('导入模板/配置模板字段/ConfigureTemplateField'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('导入模板/配置模板字段/ConfigureTemplateField'), [('searchBtnRepositoryId') : 'Object Repository/ConfigureTemplateField/btn_query'
+        , ('searchInputRepositoryIdList') : ['Object Repository/ConfigureTemplateField/btn_query_inputTemplateFieldName']
+        , ('searchConfirmBtnRepositoryId') : 'Object Repository/ConfigureTemplateField/btn_query_query', ('searchTextList') : ['BuId']], 
+    FailureHandling.STOP_ON_FAILURE)
 

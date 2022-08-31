@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_TemplateFiledPopups_Description</name>
+   <tag></tag>
+   <elementGuidId>a9ba7e44-f199-47b3-92d4-e6de2cf2f47e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@aria-label='编辑TemplateField']//form//label[@for='Description']/following-sibling::div//input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@aria-label='编辑TemplateField']//form//label[@for='Description']/following-sibling::div//input</value>
+   </webElementProperties>
+</WebElementEntity>

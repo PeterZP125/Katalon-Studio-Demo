@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_TemplateFieldPopups_ResultField</name>
+   <tag></tag>
+   <elementGuidId>4ace9cbe-885c-47f2-a1a6-0ec70839753d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@aria-label='编辑TemplateField']//form//label[@for='ResultFieldId']/following-sibling::div//i[@type='text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@aria-label='编辑TemplateField']//form//label[@for='ResultFieldId']/following-sibling::div//i[@type='text']</value>
+   </webElementProperties>
+</WebElementEntity>
